@@ -1,0 +1,174 @@
+*{}
+*{
+    margin         : 0;
+    padding        : 0;
+}
+body {
+    font-family: arial;
+    width:80%;
+    margin:auto;
+}
+@media screen and (min-width:768px) {
+    body {
+        width:60%;
+    }
+}
+@media screen and (min-width:576px) {
+    input[type="text"] {
+        margin-bottom: 10px;
+        width:385px !important;
+    }
+}
+.link {
+    border-collapse:collapse;
+    width: 100%;
+}
+.link tr td {
+    padding:5px 20px;
+}
+td {
+    padding:5px 10px;
+}
+.title_table_link {
+    text-align:center;
+    font-weight:bold;
+    font-size:20px; 
+    color: blue;
+}
+input[type="text"] {
+    background: lightblue;
+    outline: none;
+    border: 1px solid #64a7bd;
+    padding: 5px;
+    margin-bottom: 10px;
+    width:100% ;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 0.9em;
+}
+input[type="submit"] {
+    border: 1px solid #ff006c;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background: #fff;
+    color: #ff006c;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: 0.1s;
+}
+.text_color {
+    color:#005ddc;
+}
+.input_form {
+    margin-top:20px;
+    text-align:center;
+    width: 100%;
+}
+.show_data {
+    width:100%;
+   margin-top:20px;
+}
+.show_data tr td:nth-of-type(1) {
+    width: 8%;
+    text-align:center;
+}
+.show_data tr td:nth-of-type(2) {
+    width: 65%;
+}
+.show_data tr td:nth-of-type(3) {
+    width: 17%;
+    text-align:center;
+}
+.show_data tr td:nth-of-type(4) {
+    text-align:center;
+}
+a {
+    text-decoration:none;
+}
+a:visited {
+    color: #4007f5;
+    }
+span {
+    color:red;
+    font-weight:bold;
+    display: inherit;
+    text-align:center;
+    margin-top:10px;
+}
+
+.box {
+    width:100%;
+    margin:auto;
+}
+.news {
+    width:100%;
+}
+h1 {
+    text-align:center;
+    margin: 10px 0;
+    font-size: 30px;
+    color: #2d3138;
+}
+.back {
+    display: flex;
+    justify-content: flex-start;
+}
+p {
+    text-align: justify;
+    line-height: 25px;
+}
+.back a {
+    text-decoration: none;
+    padding: 0px 9px;
+    border-radius: 10px;
+    color: #005ddc;
+    margin: 20px 0 40px 0;
+    border: 1px solid;
+    font-weight: 600;
+    box-sizing: content-box;
+    transition:0.2s;
+}
+.back a:hover {
+    color: white;
+    background: #005ddc;
+}
+.back a:hover span {
+    color: white;
+    background: #005ddc;
+}
+.error_link {
+    color:red;
+    text-align: center;
+    width:500px;
+    margin:auto;
+    font-weight:bold;
+    font-size: 17px;
+}
+.text_content {
+    text-indent: 20px;
+    color:#363636;
+
+}
+span.arrow {
+    color: #005ddc;
+    background: white;
+    display: inline;
+    font-size: 25px;
+    vertical-align: middle;
+    font-weight: bold;
+    transition:0.2s;
+}
+.flash {
+    animation: flash 0.3s forwards;
+    /* animation-iteration-count:infinite; */
+}
+@keyframes flash {
+    from {opacity:0}
+    to {opacity:1}
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background: #ff006c;
+}
